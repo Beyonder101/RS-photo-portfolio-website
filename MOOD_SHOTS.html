@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+    <link rel="stylesheet" type="text/css" href="modelshots.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="header-left"> 
+        <a href="index.html">Rohan Harnal</a> 
+    </div>
+    
+    <div class="header-right">
+        <a href="work.html"> <b>work</b> </a>
+        <a href="about.html"> <b>about</b> </a>
+    </div>
+</div>
+
+<div class="gallery">
+    <img src="Moodshoots/moodshoot1.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot2.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot3.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot4.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot5.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot6.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot7.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot8.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot9.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot10.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot11.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot12.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot13.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot14.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot15.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot16.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot17.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot18.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot19.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot20.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot21.jpg" alt="modelshots" style="max-width:100%;height:auto">
+    <img src="Moodshoots/moodshoot22.jpg" alt="modelshots" style="max-width:100%;height:auto">
+
+</div>
+
+<div class="lightbox" id="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div class="bottomnavbar">
+    <a href="work.html">All</a>
+    <a href="modelshot.html" >Model Shots</a>
+    <a href="MANNEQUIN SHOTS.html">Mannequin Shots</a>
+    <a href="HANGER SHOTS.html">Hanger Shots</a>
+    <a href="MOOD SHOTS.html"class="active">Mood shots</a>
+</div>
+
+<script>
+    const galleryImages = document.querySelectorAll('.gallery img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    let currentSlideIndex = 0;
+
+    galleryImages.forEach((image, index) => {
+        image.addEventListener('click', () => {
+            currentSlideIndex = index;
+            showSlide(currentSlideIndex);
+            lightbox.style.display = 'flex';
+        });
+    });
+
+    function closeLightbox() {
+        lightbox.style.display = 'none';
+    }
+
+    function plusSlides(n) {
+        showSlide(currentSlideIndex += n);
+    }
+
+    function showSlide(index) {
+        if (index >= galleryImages.length) {
+            currentSlideIndex = 0;
+        } else if (index < 0) {
+            currentSlideIndex = galleryImages.length - 1;
+        } else {
+            currentSlideIndex = index;
+        }
+        lightboxImg.src = galleryImages[currentSlideIndex].src;
+    }
+
+    // Initially display the first slide
+    showSlide(currentSlideIndex);
+</script>
+
+</body>
+</html>
