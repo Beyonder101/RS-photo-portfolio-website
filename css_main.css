@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.center {
+  animation-name: fade;
+  animation-duration: 1.0s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(-100);
+  transition: all 1.0s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateY(0);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: -40px;
+  font-weight: 300;
+  display: inline-block;
+}
+
+/* Style the header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px; /* Increased the header height */
+  background-color: #fff; /* Background color for the header */
+  z-index: 1000; /* Ensure header stays on top */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between; /* Space out the left and right sections */
+  align-items: center; /* Center align items vertically */
+  padding: 20px 1px; /* Padding around the header */
+}
+
+/* Style the header links */
+.header a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px; /* Padding around links */
+  display: inline-block;
+}
+
+/* Change the color on hover for about and work links */
+.header-right a:hover {
+  color: rgba(0, 0, 0, 0.837);
+}
+
+/* Float the link section to the right */
+.header-right a {
+  font-size: 11.7px;
+  color: rgba(124, 118, 118, 0.837);
+  margin-left: 10px; /* Reduced space between right links to 10px */
+}
+
+/* Remove hover effect from the left header link */
+.header-left a {
+  font-size: 35px;
+  font-weight: 300;
+  color: black;
+
+}
+
+/* Adjust the main content to avoid overlapping with the fixed header */
+.images {
+  padding: 20px;
+  margin-top: 120px; /* Adjust this value based on the header's height */
+}
