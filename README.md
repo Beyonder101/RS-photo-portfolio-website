@@ -1,9 +1,21 @@
-<h1 align="center">Hi 👋, I'm kami</h1>
-<h3 align="center">A passionate team of developer from India</h3>
+<h1 align="center"> work need on </h1>
+<h3 align="center">.  /h3>
 
-- 🔭 I’m currently working on [Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
+- 🔭 links -  https://rohanharnal.com [ old Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
 
-- 📫 How to reach me **kami@kamisamaweb@xyz**
+- Once you send me I'll orga then , basically the catagories should be 
+
+1. Celebrity 
+2. Catalogue 
+3. Model portfolios 
+4. Divas restraunt
+5. Rani pink6.
+6. Sepoy and co
+7. Tissage rugs
+
+ uploaded some of the images check files ⬆
+
+- image drive link - 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
