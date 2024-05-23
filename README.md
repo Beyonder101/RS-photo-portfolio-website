@@ -8,7 +8,7 @@
  2. Catalogue 
  3. Model portfolios 
  4. Divas restraunt
- 5. Rani pink6.
+ 5. Rani pink.
  6. Sepoy and co
  7. Tissage rugs
 
