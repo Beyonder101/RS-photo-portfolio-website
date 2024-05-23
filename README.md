@@ -2,7 +2,7 @@
 <h7 <p align="left">
 - 🔭 links -  https://rohanharnal.com [ old Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
 
-- Once you send me I'll orga then , basically the catagories should be 
+- make empty weok profile for now
 
  1. Celebrity 
  2. Catalogue 
@@ -14,7 +14,13 @@
 
  uploaded some of the images check files ⬆
 
+take the first image of the categories
 - image drive link - https://drive.google.com/drive/folders/1Gmwmkgh6Ee_T1R9kz6jh4j6iiOtw06Oo?usp=drive_link
+
+
+if the categories folder is empty this add images from the pdf dmp ( take screen shots add add it in image drive --> then remove old files  add new)
+link - https://drive.google.com/drive/folders/19MGJo4_1hp7hmV06fPawRmzJo8NT1w7r?usp=drive_link
+
 </h7>
 
 <h3 align="left">Connect with me:</h3>
