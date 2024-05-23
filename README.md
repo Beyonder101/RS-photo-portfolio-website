@@ -5,13 +5,13 @@
 
 - Once you send me I'll orga then , basically the catagories should be 
 
-1. Celebrity 
-2. Catalogue 
-3. Model portfolios 
-4. Divas restraunt
-5. Rani pink6.
-6. Sepoy and co
-7. Tissage rugs
+ 1. Celebrity 
+ 2. Catalogue 
+ 3. Model portfolios 
+ 4. Divas restraunt
+ 5. Rani pink6.
+ 6. Sepoy and co
+ 7. Tissage rugs
 
  uploaded some of the images check files ⬆
 
