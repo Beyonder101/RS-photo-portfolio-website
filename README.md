@@ -1,6 +1,6 @@
 <h1 align="center"> work need on </h1>
 <h3 align="center">.  /h3>
-
+<p <p align="left">
 - 🔭 links -  https://rohanharnal.com [ old Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
 
 - Once you send me I'll orga then , basically the catagories should be 
@@ -16,7 +16,7 @@
  uploaded some of the images check files ⬆
 
 - image drive link - 
-
+</p>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
