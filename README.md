@@ -10,7 +10,8 @@
  4. Divas restraunt
  5. Rani pink.
  6. Sepoy and co
- 7. Tissage rugs
+ 7. Lookbook
+ 8. Tissage rugs
 
  uploaded some of the images check files ⬆
 
