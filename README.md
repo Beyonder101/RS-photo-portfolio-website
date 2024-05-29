@@ -4,14 +4,23 @@
 
 - make empty weok profile for now
 
- 1. Celebrity 
- 2. Catalogue 
- 3. Model portfolios 
- 4. Divas restraunt
- 5. Rani pink.
- 6. Sepoy and co
- 7. Lookbook
- 8. Tissage rugs
+
+ 1. Celebrity  
+ 2. Catalogue - 1.Mannequin 
+                2. Moodshoots 
+                 3. Hangershoot
+
+ 3. Model portfolios 1. new models ( yet to be added )
+                     2. models 
+
+ 4. Divas restraunt  - folder given 
+ 5. Rani pink.      - folder given
+ 6. Sepoy and co     - floder given
+ 
+ 7. Lookbook  1. NIFT imags
+               2. womens - Era magazine
+
+ 8. Tissage rugs  - folde given
 
  uploaded some of the images check files ⬆
 
