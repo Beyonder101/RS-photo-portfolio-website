@@ -17,23 +17,24 @@
 <h3 align="center"> Compleated work 
 
 
- <h7 <p align="left">
-1. Celebrity  
- 2. Catalogue - 1.Mannequin 
+<h7 <p align="left">
+
+	1. Celebrity  
+	2. Catalogue - 1.Mannequin 
                 2. Moodshoots 
                  3. Hangershoot
 
- 3. Model portfolios 1. new models
+ 	3. Model portfolios 1. new models
                      2. models 
 
- 4. Divas restraunt  - folder given 
- 5. Rani pink.      - folder given
- 6. Sepoy and co     - floder given
- 
- 7. Lookbook  1. NIFT imags
+	 4. Divas restraunt  - folder given 
+ 	5. Rani pink.      - folder given
+ 	6. Sepoy and co     - floder given
+		 
+	 7. Lookbook  1. NIFT imags
                2. womens - Era magazine
 
- 8. Tissage rugs  - folder given
+	 8. Tissage rugs  - folder given
 
 take the first image of the categories
 - image drive link - https://drive.google.com/drive/folders/1Gmwmkgh6Ee_T1R9kz6jh4j6iiOtw06Oo?usp=drive_link
