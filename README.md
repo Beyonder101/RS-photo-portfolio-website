@@ -3,7 +3,7 @@
 - 🔭 links -  https://rohanharnal.com [ old Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
 
 
-1. update font - Amulya Bold + Synonym Regular
+1. update font - Amulya Medium\Bold + Synonym light
 			link -  https://www.fontshare.com/pairs
 
 2. Mobile compatible
