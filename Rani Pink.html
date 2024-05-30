@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rani Pink</title>
+    <link rel="stylesheet" type="text/css" href="celebrity.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="header-left"> 
+        <a href="index.html">Rohan Harnal</a> 
+    </div>
+    
+    <div class="header-right">
+        <a href="work.html"> <b>work</b> </a>
+        <a href="about.html"> <b>about</b> </a>
+    </div>
+</div>
+
+<div class="gallery">
+    <img src="Rani pink/Rani-pink gifts 1.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 2.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 3.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 4.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 5.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 6.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 7.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 8.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 9.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 11.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 12.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 13.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 14.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 15.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 16.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 17.png"  style="max-width:100%;height:auto">
+    <img src="Rani pink/Rani-pink gifts 18.png"  style="max-width:100%;height:auto">
+       
+</div>
+
+<div class="lightbox" id="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div class="bottomnavbar">
+    <a href="work.html">All</a>
+    <a href="Celebrity.html">Celebrity</a>
+    <a href="Catalogue.html">Catalogue</a>
+    <a href="Model Portfolios.html">Model Portfolios</a>
+    <a href="Divas Restraunt.html">Divas Restraunt</a>
+    <a href="Rani Pink.html"class="active">Rani Pink</a>
+    <a href="Sepoy And Co.html">Sepoy And Co</a>
+    <a href="Lookbook.html">Lookbook</a>
+    <a href="Tissage Rugs.html">Tissage Rugs</a>
+</div>
+
+
+<script>
+    const galleryImages = document.querySelectorAll('.gallery img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    let currentSlideIndex = 0;
+
+    galleryImages.forEach((image, index) => {
+        image.addEventListener('click', () => {
+            currentSlideIndex = index;
+            showSlide(currentSlideIndex);
+            lightbox.style.display = 'flex';
+        });
+    });
+
+    function closeLightbox() {
+        lightbox.style.display = 'none';
+    }
+
+    function plusSlides(n) {
+        showSlide(currentSlideIndex += n);
+    }
+
+    function showSlide(index) {
+        if (index >= galleryImages.length) {
+            currentSlideIndex = 0;
+        } else if (index < 0) {
+            currentSlideIndex = galleryImages.length - 1;
+        } else {
+            currentSlideIndex = index;
+        }
+        lightboxImg.src = galleryImages[currentSlideIndex].src;
+    }
+
+    // Initially display the first slide
+    showSlide(currentSlideIndex);
+</script>
+
+</body>
+</html>
