@@ -1,0 +1,22 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #ffffff;
+
+}
+
+.alignments{
+    padding: 20px;
+    margin-top: 120px; /* Adjust this value based on the header's height */
+    height: 600px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+a.one:link {
+    color: blue;
+}
+
+a.one:visited {
+    color: #208ceb;
+}
