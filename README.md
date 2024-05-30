@@ -14,8 +14,10 @@
 
 
 
-<h1 align="center"> Compleated work - 
-		  1. Celebrity  
+<h1 align="center"> Compleated work -
+
+ <h7 <p align="left">
+1. Celebrity  
  2. Catalogue - 1.Mannequin 
                 2. Moodshoots 
                  3. Hangershoot
