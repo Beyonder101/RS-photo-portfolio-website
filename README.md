@@ -14,7 +14,8 @@
 
 
 
-<h1 align="center"> Compleated work -
+<h3 align="center"> Compleated work 
+
 
  <h7 <p align="left">
 1. Celebrity  
