@@ -10,7 +10,7 @@
                 2. Moodshoots 
                  3. Hangershoot
 
- 3. Model portfolios 1. new models ( yet to be added )
+ 3. Model portfolios 1. new models
                      2. models 
 
  4. Divas restraunt  - folder given 
@@ -20,7 +20,7 @@
  7. Lookbook  1. NIFT imags
                2. womens - Era magazine
 
- 8. Tissage rugs  - folde given
+ 8. Tissage rugs  - folder given
 
  uploaded some of the images check files ⬆
 
