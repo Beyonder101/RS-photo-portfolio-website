@@ -5,6 +5,7 @@
 
 1. update font - Amulya Medium\Bold + Synonym light
 			link -  https://www.fontshare.com/pairs
+commit after updating 
 
 2. Mobile compatible
 
