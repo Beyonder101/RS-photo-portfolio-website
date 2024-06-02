@@ -3,13 +3,10 @@
 - 🔭 links -  https://rohanharnal.com [ old Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
 
 
-1. update font - Amulya Medium\Bold + Synonym light
-			link -  https://www.fontshare.com/pairs
-commit after updating 
 
-2. Mobile compatible
+1. responsive web  for Mobile compatible
 
-3. ABOUT PAGE - Rewrite 
+2. ABOUT PAGE - Rewrite 
 
 
 
@@ -17,6 +14,9 @@ commit after updating
 
  <p align="left"> -
 
+	 A. updated  font to Amulya Medium\Bold + Synonym light
+	
+	B. made new work profiles
 	1. Celebrity  
 	2. Catalogue 
  	3. Model portfolios 
