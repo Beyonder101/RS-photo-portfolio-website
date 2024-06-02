@@ -13,6 +13,7 @@
 
 4. see Queries in CSS 
 
+5. chcek for new images on Work profiles
 
 
 
