@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'SynonymRegular';
-    src: url('Synonym-Regular.otf');
+    src: url('Synonym_Complete/Fonts/OTF/Synonym-Regular.otf');
 }
 
 @font-face {
     font-family: 'Amulya';
-    src: url('Amulya-Medium.otf');
+    src: url('Amulya_Complete/Fonts/OTF/Amulya-Medium.otf');
 }
 
 body {
@@ -15,13 +15,12 @@ body {
 
 .common-padding {
     padding: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
+
 }
 
 .alignments {
     font-family: 'Amulya', sans-serif;
-    margin-top: 120px; /* Adjust this value based on the header's height */
+    margin-top: 120px; 
 }
 
 .alignments2 {
@@ -31,9 +30,7 @@ body {
 .alignments3 {
     font-family: 'Amulya', sans-serif;
     height: 600px;
-    padding-left: 20%;
-    padding-right: 20%; /* Ensure right padding for .alignments3 if needed */
-}
+   }
 
 a.one:link {
     color: blue;
