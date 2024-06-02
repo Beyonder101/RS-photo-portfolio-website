@@ -6,7 +6,14 @@
 
 1. responsive web  for Mobile compatible
 
+
 2. ABOUT PAGE - Rewrite 
+
+3. bootstrap build 
+
+4. see Queries in CSS 
+
+
 
 
 
