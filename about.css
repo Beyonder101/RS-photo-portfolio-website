@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'SynonymRegular';
-    src: url('Synonym_Complete/Fonts/OTF/Synonym-Regular.otf');
+    src: url('Synonym-Regular.otf');
 }
 
 @font-face {
     font-family: 'Amulya';
-    src: url('Amulya_Complete/Fonts/OTF/Amulya-Medium.otf');
+    src: url('Amulya-Medium.otf');
 }
 
 body {
