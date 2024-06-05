@@ -4,16 +4,14 @@
 
 
 
-1. responsive web  for Mobile compatible
+1. new font
 
 
 2. ABOUT PAGE - Rewrite 
 
-3. bootstrap build 
 
-4. see Queries in CSS 
+3. see Queries in CSS 
 
-5. chcek for new images on Work profiles
 
 
 
