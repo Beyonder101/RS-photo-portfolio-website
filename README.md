@@ -3,17 +3,13 @@
 - 🔭 links -  https://rohanharnal.com [ old Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
 
 
-
-1. new font
-
+1. New Font (commit left) 
 
 2. ABOUT PAGE - Rewrite 
 
+3. See Queries in CSS 
 
-3. see Queries in CSS 
-
-
-
+4. Headder Overlay Problem
 
 
 <h3 align="center"> Compleated work! 
@@ -26,12 +22,16 @@
 	1. Celebrity  
 	2. Catalogue 
  	3. Model portfolios 
-	 4. Divas restraunt 
+	4. Divas restraunt 
  	5. Rani pink.     
  	6. Sepoy and co   
-	 7. Lookbook 
-	 8. Tissage rugs 
+	7. Lookbook 
+	8. Tissage rugs 
+	
+	C. new fonts - Outft (header) and general Sans (Body)
 
+	D. Added more margine
+	
 take the first image of the categories
 - image drive link - https://drive.google.com/drive/folders/1Gmwmkgh6Ee_T1R9kz6jh4j6iiOtw06Oo?usp=drive_link
 
