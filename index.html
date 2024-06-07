@@ -1,30 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>   
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css main.css">
 <script defer src="java.js"></script>
 <title>Rohan Harnal</title>
-<link rel="icon" type="image/x-icon" href="logo.png">
+<link rel="icon" type="image/x-icon" href="">
 
 </head>
 
-<body>
-
-<div class="header">
-    <div class="header-left">
+<header>
+<div class="navbar">
+    <div class="nav-left">
         <a href="index.html">Rohan Harnal</a> 
     </div>
     
-    <div class="header-right">
+    <div class="nav-right-desktop">
         <a href="work.html"> <b>work</b> </a>
         <a href="about.html"> <b>about</b> </a>
-        
+    </div>
+
+    <div class="nav-right-mobile">
+        <button class="hamburger" aria-label="Toggle Navigation">☰</button>
+        <ul class="menu">
+            <li><a href="work.html"> <b>work</b> </a></li>
+            <li><a href="about.html"> <b>about</b> </a></li>
+        </ul>
+    </div>   
+
+    <div id="overlay" class="overlay"> 
+        <button id="closeButton" class="closeButton">×</button> 
+        <ul class="menu">
+            <li><a href="work.html">work</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
     </div>
 </div>
+
+</header>
+<body>
+
 
 <div class="images">
 
@@ -62,6 +78,35 @@
 
 </div>
 
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+    const hamburger = document.querySelector(".hamburger");
+    const overlay = document.getElementById("overlay");
+    const closeButton = document.getElementById("closeButton");
+    const body = document.body;
+    
+    let overlayActive = false; // Flag to track overlay state
+
+    hamburger.addEventListener("click", () => {
+        if (!overlayActive) {  // Open only if not already open
+            overlay.style.display = "block";
+            closeButton.style.display = "block"; 
+            body.classList.add("overlay-active");
+            overlayActive = true;
+        }
+    });
+
+    closeButton.addEventListener("click", () => {
+        overlay.style.display = "none";
+        closeButton.style.display = "none"; 
+        body.classList.remove("overlay-active");
+        overlayActive = false;
+    });
+});
+
+</script>
 
 </body>
 </html>
