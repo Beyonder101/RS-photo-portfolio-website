@@ -1,16 +1,12 @@
 <h1 align="center"> work need on </h1>
 <h7 <p align="left">
 - 🔭 links -  https://rohanharnal.com [ old Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
-
-
-1. New Font (commit left) 
+	
+1. Website mapping
 
 2. ABOUT PAGE - Rewrite 
 
-3. See Queries in CSS 
-
-4. Headder Overlay Problem
-
+3. SEO
 
 <h3 align="center"> Compleated work! 
 
@@ -31,6 +27,13 @@
 	C. new fonts - Outft (header) and general Sans (Body)
 
 	D. Added more margine
+
+ 	E. See Queries in CSS 
+
+	F. Headder Overlay Problem
+
+	G.
+
 	
 take the first image of the categories
 - image drive link - https://drive.google.com/drive/folders/1Gmwmkgh6Ee_T1R9kz6jh4j6iiOtw06Oo?usp=drive_link
