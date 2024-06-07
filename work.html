@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work</title>
-    <link rel="stylesheet" type="text/css" href="css main.css">
-    <link rel="stylesheet" type="text/css" href="work.css">
-    <link rel="icon" type="image/x-icon" href="logo.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css main.css">
+<link rel="stylesheet" type="text/css" href="work.css">
+<script defer src="java.js"></script>
+<title>Work</title>
+<link rel="icon" type="image/x-icon" href="">
 
 </head>
-<body>
 
-<div class="header">
-    <div class="header-left"> 
+<header>
+<div class="navbar">
+    <div class="nav-left">
         <a href="index.html">Rohan Harnal</a> 
     </div>
     
-    <div class="header-right">
+    <div class="nav-right-desktop">
         <a href="work.html"> <b>work</b> </a>
         <a href="about.html"> <b>about</b> </a>
     </div>
+
+    <div class="nav-right-mobile">
+        <button class="hamburger" aria-label="Toggle Navigation">☰</button>
+        <ul class="menu">
+            <li><a href="work.html"> <b>work</b> </a></li>
+            <li><a href="about.html"> <b>about</b> </a></li>
+        </ul>
+    </div>   
+
+    <div id="overlay" class="overlay"> 
+        <button id="closeButton" class="closeButton">×</button> 
+        <ul class="menu">
+            <li><a href="work.html">work</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </div>
 </div>
+
+</header>
+
+<body>
 
 <div class="adjustments">
     <div class="container">
@@ -50,7 +71,7 @@
 
     <div class="container">
         <a href="Model Portfolios.html">
-        <img src="work profiles/Model 24.png" alt="Avatar" class="image" 
+        <img src="work profiles/hanger shots.jpg" alt="Avatar" class="image" 
         style="width: 100%; height: 250px; object-fit: cover; object-position: -50% 30%;"
         >
         <div class="middle">
@@ -63,7 +84,7 @@
 
     <div class="container">
         <a href="Divas Restraunt.html">
-        <img src="work profiles/Diva.png" alt="Avatar" class="image" 
+        <img src="work profiles/mood shots.jpg" alt="Avatar" class="image" 
         style="width: 100%; height: 250px; object-fit: cover; object-position: -50% 30%;"
         >
         <div class="middle">
@@ -76,7 +97,7 @@
 
     <div class="container">
         <a href="Rani Pink.html">
-        <img src="work profiles/Rani-pink gifts.png" alt="Avatar" class="image" 
+        <img src="work profiles/mood shots.jpg" alt="Avatar" class="image" 
         style="width: 100%; height: 250px; object-fit: cover; object-position: -50% 30%;"
         >
         <div class="middle">
@@ -89,7 +110,7 @@
 
     <div class="container">
         <a href="Sepoy And Co.html">
-        <img src="work profiles/Sepoy&co.png" alt="Avatar" class="image" 
+        <img src="work profiles/mood shots.jpg" alt="Avatar" class="image" 
         style="width: 100%; height: 250px; object-fit: cover; object-position: -50% 30%;"
         >
         <div class="middle">
@@ -102,7 +123,7 @@
 
     <div class="container">
         <a href="Lookbook.html">
-        <img src="work profiles/Lookbookwork.jpg" alt="Avatar" class="image" 
+        <img src="work profiles/mood shots.jpg" alt="Avatar" class="image" 
         style="width: 100%; height: 250px; object-fit: cover; object-position: -50% 30%;"
         >
         <div class="middle">
@@ -115,7 +136,7 @@
 
     <div class="container">
         <a href="Tissage Rugs.html">
-        <img src="work profiles/TissageRuge.png" alt="Avatar" class="image" 
+        <img src="work profiles/mood shots.jpg" alt="Avatar" class="image" 
         style="width: 100%; height: 250px; object-fit: cover; object-position: -50% 30%;"
         >
         <div class="middle">
@@ -125,5 +146,33 @@
     </div>
 </div>
 
+<script>
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.querySelector(".hamburger");
+        const overlay = document.getElementById("overlay");
+        const closeButton = document.getElementById("closeButton");
+        const body = document.body;
+        
+        let overlayActive = false; // Flag to track overlay state
+    
+        hamburger.addEventListener("click", () => {
+            if (!overlayActive) {  // Open only if not already open
+                overlay.style.display = "block";
+                closeButton.style.display = "block"; 
+                body.classList.add("overlay-active");
+                overlayActive = true;
+            }
+        });
+    
+        closeButton.addEventListener("click", () => {
+            overlay.style.display = "none";
+            closeButton.style.display = "none"; 
+            body.classList.remove("overlay-active");
+            overlayActive = false;
+        });
+    });
+    
+    </script>
 </body>
 </html>
