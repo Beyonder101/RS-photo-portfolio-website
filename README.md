@@ -8,6 +8,8 @@
 
 3. SEO
 
+4. remove any old repository
+
 <h3 align="center"> Compleated work! 
 
  <p align="left"> -
