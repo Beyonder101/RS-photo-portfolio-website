@@ -1,35 +1,26 @@
-@font-face {
-    font-family: 'SynonymRegular';
-    src: url('Synonym_Complete/Fonts/OTF/Synonym-Regular.otf');
-}
 
-@font-face {
-    font-family: 'Amulya';
-    src: url('Amulya_Complete/Fonts/OTF/Amulya-Medium.otf');
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
-}
 
 .common-padding {
-    padding: 20px;
-
+    align-items: center;
+    margin-inline: 25px;
 }
 
 .alignments {
-    font-family: 'Amulya', sans-serif;
-    margin-top: 120px; 
+    font-family: 'Outfit', sans-serif;
+    margin-top: 150px; 
+}
+
+.alignments-0 {
+    font-family: 'General Sans', sans-serif;
 }
 
 .alignments2 {
-    font-family: 'SynonymRegular', sans-serif;
+    font-family: 'General Sans', sans-serif;
 }
 
 .alignments3 {
-    font-family: 'Amulya', sans-serif;
-    height: 600px;
+    font-family: 'Outfit', sans-serif;
+    height: 250px;
    }
 
 a.one:link {
