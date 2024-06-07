@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Amulya';
-  src: url('Amulya-Medium.otf');
+  src: url('Amulya_Complete/Fonts/OTF/Amulya-Medium.otf');
 }
 
 .center {
@@ -37,49 +37,143 @@
 }
 
 /* Style the header */
-.header {
+.navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 100px; /* Increased the header height */
-  background-color: #fff; /* Background color for the header */
-  z-index: 1000; /* Ensure header stays on top */
+  height: 150px; /* Increased the navbar height */
+  background-color: #ffffff; /* Background color for the navbar */
+  z-index: 1000; /* Ensure navbar stays on top */
   display: flex;
   justify-content: space-between; /* Space out the left and right sections */
   align-items: center; /* Center align items vertically */
-  padding: 20px 1px; /* Padding around the header */
 }
 
-/* Style the header links */
-.header a {
+/* Style the navbar links */
+.navbar a {
   color: black;
   text-decoration: none;
-  padding: 10px 20px; /* Padding around links */
+  padding-top: 10px;
   display: inline-block;
   font-family: 'Amulya', sans-serif;
 }
 
 /* Change the color on hover for about and work links */
-.header-right a:hover {
+.nav-right-desktop a:hover {
   color: rgba(0, 0, 0, 0.837);
 }
 
 /* Float the link section to the right */
-.header-right a {
-  font-size: 11.7px;
+.nav-right-desktop a {
+  font-size: 13.7px;
   color: rgba(124, 118, 118, 0.837);
-  margin-left: 10px; /* Reduced space between right links to 10px */
+  margin-left: 1px; /* Reduced space between right links to 10px */
+  padding-right: 38px ; 
 }
 
-/* Remove hover effect from the left header link */
-.header-left a {
+/* Remove hover effect from the left navbar link */
+.nav-left a {
   font-size: 35px;
   color: black;
+  padding-left: 20px;
 
 }
 
-/* Adjust the main content to avoid overlapping with the fixed header */
+/* Adjust the main content to avoid overlapping with the fixed navbar */
 .images {
   padding: 20px;
-  margin-top: 120px; /* Adjust this value based on the header's height */
+  margin-top: 120px; /* Adjust this value based on the navbar's height */
+}
+
+.nav-right-mobile {
+  display: none; /* Hide on desktop */
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .nav-right-desktop {
+      display: none; /* Hide on mobile */
+  }
+  body.overlay-active .overlay {
+    display: flex; /* Show the overlay on mobile when active */
+  }
+  .nav-right-mobile {
+      display: block; /* Show on mobile */
+  }
+  .nav-right-mobile .menu.active {
+    display: flex; /* Show menu when active */
+    flex-direction: column;
+    position: fixed;
+    top: 18%; 
+    left: 0;
+    padding-left: 50%;
+    padding-top: 25%;
+    width: 100%; 
+    height: 100vh; 
+    background-color: #fff;
+    z-index: 999; 
+  }
+}
+
+.nav-right-mobile .menu {
+  display: none; /* Initially hide the menu */
+  
+}
+
+div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+.overlay {
+  display: none; 
+  position: fixed;
+  top: 100px; /* Start below the header */
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 999; 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60%;
+}
+
+body.overlay-active .overlay {
+  display: block; /* Show the overlay when active */
+}
+.hamburger{
+  font-size: 30px;
+  top: 44px;
+}
+
+.closeButton{
+  font-size: 47px;
+  top: 36px;
+}
+
+.closeButton,
+.hamburger {
+  /* Combine the styles for both buttons */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  position: fixed;
+  right: 10px;
+  z-index: 1000;
+}
+
+body.overlay-active {
+  overflow: hidden; /* Prevent scrolling when overlay is active */
+  height: 100%; /* Ensure the body takes up the full viewport height */
+}
+
+body.overlay-active .hamburger {
+    display: none; /* Hide the hamburger when the overlay is active */
+}
+
+body.overlay-active .closeButton {
+    display: block; /* Show the close button when the overlay is active */
 }
