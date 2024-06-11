@@ -4,11 +4,11 @@
 	
 1. Website mapping
 
-2. ABOUT PAGE - Rewrite 
+2. ABOUT PAGE - Rewrite ( 4 draft )
 
 3. SEO
 
-4. remove any old repository
+4. Lookbook images raw size with ( 72 dip - photoshop < script < image processing )
 
 <h3 align="center"> Compleated work! 
 
@@ -34,7 +34,7 @@
 
 	F. Headder Overlay Problem
 
-	G.
+	G.  remove any old repository
 
 	
 take the first image of the categories
