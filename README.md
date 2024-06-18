@@ -34,9 +34,11 @@
 
 	F. Headder Overlay Problem
 
-	G.  remove any old repository
+	G. Remove any old repository
 
-	
+	H. updated Work profiles images
+
+  
 take the first image of the categories
 - image drive link - https://drive.google.com/drive/folders/1Gmwmkgh6Ee_T1R9kz6jh4j6iiOtw06Oo?usp=drive_link
 
