@@ -3,18 +3,14 @@
 - 🔭 links -  https://rohanharnal.com [ old Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
 	
 1. Website mapping
-
-2. ABOUT PAGE - Rewrite ( 4 draft )
-
-3. SEO
-
-4. Lookbook images raw size with ( 72 dip - photoshop < script < image processing )
-
+	
+2. Lookbook images raw size with ( 72 dip - photoshop < script < image processing )
+	
 <h3 align="center"> Compleated work! 
-
+	
  <p align="left"> -
-
-	 A. updated  font to Amulya Medium\Bold + Synonym light
+	
+	A. updated  font to Amulya Medium\Bold + Synonym light
 	
 	B. made new work profiles
 	1. Celebrity  
@@ -27,18 +23,21 @@
 	8. Tissage rugs 
 	
 	C. new fonts - Outft (header) and general Sans (Body)
-
+	
 	D. Added more margine
-
+	
  	E. See Queries in CSS 
-
+	
 	F. Headder Overlay Problem
-
+	
 	G. Remove any old repository
-
+	
 	H. updated Work profiles images
-
-  
+	
+	I. ABOUT PAGE - Rewrite ( 4 draft )
+ 	 
+	M.
+  	
 take the first image of the categories
 - image drive link - https://drive.google.com/drive/folders/1Gmwmkgh6Ee_T1R9kz6jh4j6iiOtw06Oo?usp=drive_link
 
