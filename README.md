@@ -3,8 +3,9 @@
 - 🔭 links -  https://rohanharnal.com [ old Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
 	
 1. Website mapping
+2. Meta Desciptions
 	
-2. Lookbook images raw size with ( 72 dip - photoshop < script < image processing )
+
 	
 <h3 align="center"> Compleated work! 
 	
@@ -36,7 +37,7 @@
 	
 	I. ABOUT PAGE - Rewrite ( 4 draft )
  	 
-	M.
+	M. Lookbook images raw size with ( 72 dip - photoshop < script < image processing )
   	
 take the first image of the categories
 - image drive link - https://drive.google.com/drive/folders/1Gmwmkgh6Ee_T1R9kz6jh4j6iiOtw06Oo?usp=drive_link
