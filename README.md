@@ -1,10 +1,6 @@
-<h1 align="center"> work need on </h1>
+<h1 align="center"> work completed details </h1>
 <h7 <p align="left">
-- 🔭 links -  https://rohanharnal.com [ old Rohanharnal](https://github.com/Beyonder101/RohanlHarnal)
-	
-1. Website mapping
-2. Meta Desciptions
-	
+- 🔭 links -  (https://github.com/Beyonder101/RohanlHarnal)
 
 	
 <h3 align="center"> Compleated work! 
@@ -38,7 +34,11 @@
 	I. ABOUT PAGE - Rewrite ( 4 draft )
  	 
 	M. Lookbook images raw size with ( 72 dip - photoshop < script < image processing )
-  	
+
+        N. Website mapping
+        O. Meta Desciptions
+	
+    
 take the first image of the categories
 - image drive link - https://drive.google.com/drive/folders/1Gmwmkgh6Ee_T1R9kz6jh4j6iiOtw06Oo?usp=drive_link
 
